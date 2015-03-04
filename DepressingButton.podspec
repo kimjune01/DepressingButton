@@ -11,14 +11,6 @@ Pod::Spec.new do |s|
   s.name             = "DepressingButton"
   s.version          = "0.1.0"
   s.summary          = "A UIButton extension to allow a depressing animation when touched down"
-s.description      = <<-DESC
-* Markdown format.
-* Implementation
-* Markdown format.
-* Implementation
-* Markdown format.
-* Implementation
-                       DESC
   s.homepage         = "https://github.com/kimjune01/DepressingButton"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
