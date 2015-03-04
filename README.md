@@ -5,9 +5,11 @@ A UIButton extension that allows buttons to be depressed with animation
 
 ### Code
 
+![demo](http://i.imgur.com/FgE6nvE.gif)
+
 ``` swift
-var depressingButton:UIButton!
-depressingButton.setupDepression() //in viewDidLoad
+var depressingButton:UIButton! // in UIViewController
+depressingButton.setupDepression() // in viewDidLoad
 ```
 
 ### Pod
