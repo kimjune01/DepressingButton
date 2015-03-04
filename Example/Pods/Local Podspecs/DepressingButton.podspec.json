@@ -1,0 +1,25 @@
+{
+  "name": "DepressingButton",
+  "version": "0.1.0",
+  "summary": "A short description of DepressingButton.",
+  "description": "                       An optional longer description of DepressingButton\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DepressingButton",
+  "license": "MIT",
+  "authors": {
+    "kimjune01": "kimjune01@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DepressingButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "DepressingButton": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

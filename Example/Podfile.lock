@@ -1,0 +1,14 @@
+PODS:
+  - DepressingButton (0.1.0)
+
+DEPENDENCIES:
+  - DepressingButton (from `../`)
+
+EXTERNAL SOURCES:
+  DepressingButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DepressingButton: e74efddd8b2f468ff92a18fe2f5b50ea10146679
+
+COCOAPODS: 0.36.0.rc.1

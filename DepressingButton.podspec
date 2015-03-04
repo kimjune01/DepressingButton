@@ -10,29 +10,20 @@
 Pod::Spec.new do |s|
   s.name             = "DepressingButton"
   s.version          = "0.1.0"
-  s.summary          = "A short description of DepressingButton."
+  s.summary          = "An extension to allow a depressing animation when touched down"
   s.description      = <<-DESC
-                       An optional longer description of DepressingButton
-
                        * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       * Implementation
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DepressingButton"
+  s.homepage         = "https://github.com/kimjune01/DepressingButton"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "kimjune01" => "kimjune01@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DepressingButton.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "June Kim" => "kimjune01@gmail.com" }
+  s.source           = { :git => "https://github.com/kimjune01/DepressingButton.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
+  s.platform     = :ios, '8.1'
+  s.requires_arc = false
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'DepressingButton' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'DepressingButton.swift'
+  s.frameworks = 'UIKit'
 end

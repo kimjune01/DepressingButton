@@ -6,4 +6,4 @@
 //  Copyright (c) 2014 kimjune01. All rights reserved.
 //
 
-${TEST_EXAMPLE}
+//${TEST_EXAMPLE}
